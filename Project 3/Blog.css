@@ -82,3 +82,45 @@ button, .btn {
     margin-top: 15px;
     color: #52765a;
 }
+#search {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 25px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    text-align: left;
+}
+
+.blog-card {
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #0000000d;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.blog-card h3 {
+    margin: 12px 0 5px;
+}
+
+.blog-card p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.blog-card button {
+    margin-top: 5px;
+}
