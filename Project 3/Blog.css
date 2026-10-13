@@ -124,3 +124,64 @@ button, .btn {
 .blog-card button {
     margin-top: 5px;
 }
+footer {
+    text-align: center;
+    background-color: #e5ecdf;
+    padding: 30px 15px;
+}
+
+body.dark {
+    background-color: #202720;
+    color: #f0f0e9;
+}
+
+body.dark header,
+body.dark .blog-card {
+    background-color: #2b342c;
+}
+
+body.dark nav a,
+body.dark .mood-buttons button,
+body.dark .blog-card p {
+    color: #f0f0e9;
+}
+
+body.dark .mood-buttons button {
+    background-color: #2b342c;
+}
+
+body.dark .hero,
+body.dark footer {
+    background-color: #303d31;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav {
+        order: 3;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .blog-container {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-card img {
+        height: 220px;
+    }
+}
+
