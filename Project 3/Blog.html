@@ -39,6 +39,53 @@
 
         <p id="moodMessage">Choose a mood to find a story!</p>
     </section>
+    <section class="blogs" id="blogs">
+        <h2>Stories for you</h2>
+
+        <input type="text" id="search"
+            placeholder="Search a blog...">
+
+        <div class="blog-container">
+
+            <div class="blog-card" data-mood="calm">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80"
+                    alt="Green forest">
+
+                <h3>The Art of Slowing Down</h3>
+                <p>Sometimes, taking a break is all you need.</p>
+                <button onclick="readBlog(1)">Read More</button>
+            </div>
+
+            <div class="blog-card" data-mood="happy">
+                <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=600&q=80"
+                    alt="Sunrise in nature">
+
+                <h3>Finding Joy in Little Things</h3>
+                <p>Small moments can make an ordinary day special.</p>
+                <button onclick="readBlog(2)">Read More</button>
+            </div>
+
+            <div class="blog-card" data-mood="motivated">
+                <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=600&q=80"
+                    alt="Creative workspace">
+
+                <h3>Start Before You Feel Ready</h3>
+                <p>You don't need to be perfect to begin.</p>
+                <button onclick="readBlog(3)">Read More</button>
+            </div>
+
+            <div class="blog-card" data-mood="sad">
+                <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=600&q=80"
+                    alt="Peaceful mountain lake">
+
+                <h3>Every Season Will Pass</h3>
+                <p>Give yourself time to grow at your own pace.</p>
+                <button onclick="readBlog(4)">Read More</button>
+            </div>
+
+        </div>
+    </section>
+
   <script src="Blog.js"></script>
 </body>
 </html>
