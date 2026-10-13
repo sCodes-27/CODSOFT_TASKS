@@ -1,1 +1,84 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f6f0;
+    color: #2e3d32;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background-color: white;
+}
+
+.logo {
+    color: #52765a;
+}
+
+nav a {
+    text-decoration: none;
+    color: #344638;
+    margin: 0 10px;
+}
+
+button, .btn {
+    cursor: pointer;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    background-color: #52765a;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background-color: #e5ecdf;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.moods, .blogs {
+    padding: 55px 7%;
+    text-align: center;
+}
+
+.mood-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 25px 0;
+}
+
+.mood-buttons button {
+    background-color: white;
+    color: #344638;
+    border: 1px solid #d5dfd2;
+}
+
+#moodMessage {
+    margin-top: 15px;
+    color: #52765a;
+}
